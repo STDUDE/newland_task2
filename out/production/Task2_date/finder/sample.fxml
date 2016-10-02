@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="405.0" fx:controller="finder.Controller"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+    <ComboBox id="dayOfWeek" fx:id="dayOfWeek" layoutX="25.0" layoutY="84.0" prefHeight="25.0" prefWidth="178.0" promptText="День недели" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="75.0" />
+    <DatePicker fx:id="referenceDate" layoutX="25.0" layoutY="124.0" promptText="Дата отсчета" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="124.0" />
+    <Button fx:id="find" layoutX="25.0" layoutY="164.0" onAction="#findDate" mnemonicParsing="false" text="Найти" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="164.0" />
+    <Label fx:id="result" layoutX="25.0" layoutY="206.0" prefHeight="46.0" prefWidth="355.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="206.0">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <TextField fx:id="dayNumber" layoutX="231.0" layoutY="84.0" promptText="День" onMouseClicked="#selectAll" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="75.0" />
+    <Label fx:id="nearest" layoutX="25.0" layoutY="55.0" prefHeight="17.0" prefWidth="343.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="55.0">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="14.0" layoutY="29.0" prefHeight="17.0" prefWidth="343.0" text="Поиск ближайшей даты относительно заданной" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label layoutX="25.0" layoutY="104.0" prefHeight="17.0" text="после" prefWidth="343.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+</children>
+</AnchorPane>
+

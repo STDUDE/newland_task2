@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Task2_date">
+    <output-path>$PROJECT_DIR$/out/artifacts/Task2_date</output-path>
+    <root id="root">
+      <element id="archive" name="Task2_date.jar">
+        <element id="module-output" name="Task2_date" />
+      </element>
+    </root>
+  </artifact>
+</component>
